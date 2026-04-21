@@ -7,7 +7,7 @@ export const controllers = {
   AccessTokens: () => import('#controllers/access_tokens_controller'),
   http: {
     Categorias: () => import('#controllers/Http/categorias_controller'),
-    Filmes: () => import('#controllers/Http/#controllers/Http/filmes_controller
+    Filmes: () => import('#controllers/Http/filmes_controller'),
   },
   NewAccount: () => import('#controllers/new_account_controller'),
   Profile: () => import('#controllers/profile_controller'),

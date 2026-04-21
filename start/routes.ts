@@ -15,6 +15,5 @@ router.get('/', () => {
   return { hello: 'Esdra Fontes' }
 })
 
-router.get('/categorias', [CategoriasController, 'index'])
-
 router.resource('/filmes', FilmesController).apiOnly()
+router.resource('/categorias', CategoriasController).apiOnly()
